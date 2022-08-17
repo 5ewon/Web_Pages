@@ -14,7 +14,7 @@
     background: hsla(213, 86%, 57%, 0.286);  /*스크롤바 뒷 배경 색상*/
 }
 
-#first-page{
+#introduce-wrap-page{
     scroll-behavior: smooth;
 }
 

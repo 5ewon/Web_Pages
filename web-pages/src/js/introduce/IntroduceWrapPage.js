@@ -2,11 +2,11 @@ import LoginPage from "./LoginPage";
 import IntroduceWeb from "./IntroduceWeb";
 import IntroduceFunction from "./IntroduceFunction";
 import Footer from "./Footer";
-import './css/firstPage.css';
+import './css/introduceWrapPage.css';
 
-function FirstPage() {
+function IntroduceWrapPage() {
     return(
-        <div id="first-page">
+        <div id="introduce-wrap-page">
             <LoginPage />
             <IntroduceWeb />
             <IntroduceFunction />
@@ -15,4 +15,4 @@ function FirstPage() {
     );
 }
 
-export default FirstPage;
+export default IntroduceWrapPage;

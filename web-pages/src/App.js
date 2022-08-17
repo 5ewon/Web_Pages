@@ -1,10 +1,10 @@
-import FirstPage from "./js/introduce/FirstPage";
+import IntroduceWrapPage from "./js/introduce/IntroduceWrapPage";
 import './reset.css';
 
 function App() {
   return (
     <div>
-      <FirstPage />
+      <IntroduceWrapPage />
     </div>
   );
 }
