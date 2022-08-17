@@ -110,6 +110,7 @@ input{
     background-color: #46beff;
     color: white;
     border-radius: 35px;
+    cursor: pointer;
 }
 
 .login-button:last-child{
@@ -130,6 +131,7 @@ input{
     font-size: 18px;
     transition: 0.2s ease-out;
     color: #46beff;
+    user-select: none;
 }
 #mouse-body{
     width: 40px;
@@ -174,6 +176,7 @@ input{
     transform: translateX(-50%);
     font-size: 40px;
     font-weight: 600;
+    user-select: none;
 }
 
 #introduce-web-paragraph{
@@ -184,6 +187,7 @@ input{
     left: 50%;
     transform: translateX(-50%);
     top: 50%;
+    user-select: none;
 }
 
 /* IntroduceFunction */
@@ -196,21 +200,50 @@ input{
     top: 25%;
     left: 50%;
     transform: translateX(-50%);
+    user-select: none;
 }
 
 #functions-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     position: relative;
     top: 40%;
     height: 200px;
+    user-select: none;
 }
 
 .function{
     width: 180px;
+    height: inherit;
     background-color: #f2f2f2;
     border-radius: 30px;
+    margin: 0 40px;
+    overflow: hidden;
 }
+
+.wrap-function{
+    height: inherit;
+    transition: 0.4s;
+}
+.wrap-function:hover{
+    transform: translateY(-100%);
+    /* color: white; */
+}
+
+.wrap-function div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    font-size: 1.6rem;
+}
+.wrap-function div:last-child{
+    font-size: 1rem;
+}
+
+/* .function-paragraph{
+    font-size: 1rem;
+} */
 
 /* Footer */
 
@@ -220,4 +253,5 @@ input{
     height: 50vh;
     z-index: 3;
     background-color: #eaeaea;
+    user-select: none;
 }
