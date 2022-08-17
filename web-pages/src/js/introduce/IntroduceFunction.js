@@ -6,18 +6,18 @@ function IntroduceFunction() {
             <h3 id="introduce-function-h3">기능소개</h3>
             <div id="functions-container">
                 <div className="function">
-                    <div class="wrap-function">
+                    <div className="wrap-function">
                         <div>
                             <img />
                             회원관리
                         </div>
-                        <div class="function-paragraph">
+                        <div className="function-paragraph">
                             기능
                         </div>
                     </div>
                 </div>
                 <div className="function">
-                    <div class="wrap-function">
+                    <div className="wrap-function">
                         <div>
                             <img />
                             계시판 이용
@@ -28,7 +28,7 @@ function IntroduceFunction() {
                     </div>
                 </div>
                 <div className="function">
-                    <div class="wrap-function">
+                    <div className="wrap-function">
                         <div>
                             <img />
                             플래너 작성
@@ -39,7 +39,7 @@ function IntroduceFunction() {
                     </div>
                 </div>
                 <div className="function">
-                    <div class="wrap-function">
+                    <div className="wrap-function">
                         <div>
                             <img />
                             인공지능 챗봇
