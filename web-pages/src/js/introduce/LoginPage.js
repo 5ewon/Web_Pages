@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react';
+import './css/loginPage.css';
 
 function LoginPage() {
     const scrollSign = useRef(null);

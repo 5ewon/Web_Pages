@@ -1,3 +1,5 @@
+import './css/introduceWeb.css';
+
 function IntroduceWeb() {
     return(
         <div className="containers">

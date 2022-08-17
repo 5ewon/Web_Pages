@@ -1,3 +1,5 @@
+import './css/introduceFunction.css';
+
 function IntroduceFunction() {
     return(
         <div className="containers sticky">

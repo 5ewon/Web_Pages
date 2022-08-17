@@ -1,0 +1,41 @@
+/* FirstPage */
+
+::-webkit-scrollbar {
+    width: 10px;  /* 스크롤바의 너비 */
+}
+
+::-webkit-scrollbar-thumb {
+    height: 10%; /* 스크롤바의 길이 */
+    background: #46beff; /* 스크롤바의 색상 */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: hsla(213, 86%, 57%, 0.286);  /*스크롤바 뒷 배경 색상*/
+}
+
+#first-page{
+    scroll-behavior: smooth;
+}
+
+.containers{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-color: white;
+    z-index: 0;
+}
+.containers:nth-child(even){
+    background-color: #f2f2f2;
+}
+.containers:nth-child(2){
+    z-index: 1;
+}
+.containers:nth-child(3){
+    z-index: 2;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
