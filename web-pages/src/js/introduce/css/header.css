@@ -1,0 +1,38 @@
+.HomeWrapPage-header {
+    height: 115px;
+    width: 100vw;
+    border-bottom:3px solid #46BEFF;
+}
+#logo {
+    top:29px;
+}
+.HomeWrapPage-header li{
+    text-align: center;
+    position: relative;
+    float:left;
+    margin-left: 43px;
+    top:49px;
+    font-size:25px;
+    font-weight: 400;
+    cursor:pointer;
+}
+#homeLogin {
+    float: right;
+    line-height: 38px;
+    height: 40px;
+}
+#homeLogin li:nth-child(1){
+    width: 100px;
+    background-color: #E8E6E6;
+    border-radius: 5px;
+    border:2px solid #E8E6E6;
+    margin-right:23px;
+}
+#homeLogin li:nth-child(2){
+    width: 120px;
+    cursor:pointer;
+    background-color: #D4F0FF;
+    border-radius: 5px;
+    border:2px solid #E8E6E6;
+    margin-right: 130px;
+}
