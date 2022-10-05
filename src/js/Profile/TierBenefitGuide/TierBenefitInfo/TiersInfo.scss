@@ -83,9 +83,32 @@
             }
         }
     }
-
     #tier-explanations {
-        // 선택되지 않았을 때 설명이 안 보이게 함
-        fieldset { display: none; }
+        padding: 40px 0;
+
+        > fieldset {
+            > legend {
+                color: $blue;
+            }
+            > ul {
+                padding-top: 20px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+                list-style: disc;
+
+                > li {
+                    display: flex;
+                    align-items: center;
+                    > div {
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 6px;
+                        background-color: $main-blue;
+                        margin-right: 12px;
+                    }
+                }
+            }
+        }
     }
 }
