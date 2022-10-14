@@ -15,7 +15,7 @@
         align-items: center;
 
         > img {
-            width: 50px;
+            width:30px;
         }
         #user-name {
             margin-left: 10px;
@@ -27,5 +27,8 @@
         #user-id {
             margin-left: 12px;
         }
+    }
+    > #settings {
+        width: 30px;
     }
 }

@@ -1,5 +1,6 @@
 import './UserState.scss';
 import profileImage from 'images/Profile/profile.svg';
+import settings from 'images/Profile/settings.svg';
 
 function UserState() {
     return (
@@ -9,7 +10,7 @@ function UserState() {
                 <span id="user-name"><span>아무개</span>님</span>
                 <span id="user-id">amugae1234</span>
             </div>
-            <img id="setting" src="" alt="setting" />
+            <img id="settings" src={settings} alt="settings" />
         </div>
     )
 }
