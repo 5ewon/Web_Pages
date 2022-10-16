@@ -1,0 +1,61 @@
+{
+    "ranking": [
+        {
+            "title": "부산소마고 미남 웅이쌤의 깃허브 부수기",
+            "author": "손정웅",
+            "proteen": 654723
+        },
+        {
+            "title": "유근찬의 C언어 근찬톡톡",
+            "author": "근찬톡톡",
+            "proteen": 624032
+        },
+        {
+            "title": "리눅스 마스터하기",
+            "author": "김왕구",
+            "proteen": 604223
+        },
+        {
+            "title": "김왕구의 신나는 러스트",
+            "author": "왕현빈",
+            "proteen": 600523
+        },
+        {
+            "title": "피그마 일주일만에 끝장내기",
+            "author": "기철이",
+            "proteen": 594723
+        },
+        {
+            "title": "내일은 HTML왕",
+            "author": "범우주",
+            "proteen": 554723
+        },
+        {
+            "title": "내일은 데이터 분석왕",
+            "author": "나란이",
+            "proteen": 532777
+        }
+    ],
+    "history": [
+        {
+            "img": "https://",
+            "title": "유근찬의 C언어 근찬톡톡"
+        },
+        {
+            "img": "https://",
+            "title": "내일은 데이터 분석왕"
+        },
+        {
+            "img": "https://",
+            "title": "리액트 좌로우로 완전 박살내버리기"
+        },
+        {
+            "img": "https://",
+            "title": "부산소마고 미남 웅이쌤의 깃허브 부수기"
+        },
+        {
+            "img": "https://",
+            "title": "내일은 HTML왕"
+        }
+    ]
+}

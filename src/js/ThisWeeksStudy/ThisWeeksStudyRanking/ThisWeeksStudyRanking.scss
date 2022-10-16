@@ -1,0 +1,18 @@
+#this-weeks-study-ranking{
+    display: grid;
+    grid-template-rows: 60fr 630fr 80fr;
+
+    #ranking-header {
+        display: flex;
+    }
+
+    #ranking-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+        > li {
+            display: flex;
+        }
+    }
+}
