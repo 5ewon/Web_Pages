@@ -1,13 +1,16 @@
 import ThisWeeksStudyHistory from './ThisWeeksStudyHistory/ThisWeeksStudyHistory';
 import ThisWeeksStudyOptions from './ThisWeeksStudyOptions/ThisWeeksStudyOptions';
 import ThisWeeksStudyRanking from './ThisWeeksStudyRanking/ThisWeeksStudyRanking';
+import './ThisWeeksStudy.scss';
 
 function ThisWeeksStudy(){
     return(
-        <div>
+        <div id="this-weeks-study">
             <ThisWeeksStudyOptions />
-            <ThisWeeksStudyRanking />
-            <ThisWeeksStudyHistory />
+            <div id="this-weeks-study-contents">
+                <ThisWeeksStudyRanking />
+                <ThisWeeksStudyHistory />
+            </div>
         </div>
     );
 }

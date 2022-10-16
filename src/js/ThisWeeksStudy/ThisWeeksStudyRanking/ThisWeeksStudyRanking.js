@@ -13,7 +13,7 @@ function ThisWeeksStudyRanking() {
             <ul id="ranking-list">
                 {
                     ranking.ranking.map((rank, i) => (
-                        <li>
+                        <li key={i}>
                             <h2>{i+1}</h2>
                             <h2>{rank.title}</h2>
                             <h2>{rank.author}</h2>
@@ -22,7 +22,7 @@ function ThisWeeksStudyRanking() {
                     ))
                 }
             </ul>
-            <div>양유빈님은 현재 345231217위입니다.</div>
+            <div id="this-weeks-study-my-ranking"><span id="this-weeks-study-user-name">양유빈</span>님은 현재 345231217위입니다.</div>
         </div>
     )
 }
