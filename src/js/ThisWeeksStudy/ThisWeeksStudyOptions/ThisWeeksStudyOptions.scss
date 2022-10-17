@@ -1,6 +1,9 @@
 @import '/src/Color/Color.scss';
 
 #this-weeks-study-options {
+    display: flex;
+    justify-content: space-between;
+
     #this-weeks-study-options-radios {
         display: flex;
         column-gap: 5px;
@@ -18,8 +21,17 @@
             padding: 10px 42px;
             border-radius: 100px;
             background-color: $main-light-gray;
-
-
         }
+    }
+    #upload-study {
+        border: none;
+        background-color: $main-light-gray;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        padding: 4px;
+        padding-left: 24px;
+        border-radius: 100px;
     }
 }

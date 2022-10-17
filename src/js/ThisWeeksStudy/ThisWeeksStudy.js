@@ -6,11 +6,11 @@ import './ThisWeeksStudy.scss';
 function ThisWeeksStudy(){
     return(
         <div id="this-weeks-study">
-            <ThisWeeksStudyOptions />
             <div id="this-weeks-study-contents">
+                <ThisWeeksStudyOptions />
                 <ThisWeeksStudyRanking />
-                <ThisWeeksStudyHistory />
             </div>
+            <ThisWeeksStudyHistory />
         </div>
     );
 }

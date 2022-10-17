@@ -10,16 +10,18 @@ function ThisWeeksStudyHistory() {
                 <span id="this-weeks-study-history-id">yubin12</span>
                 님의 공부법 시청기록
             </div>
-            <ul>
-                {
-                    history.history.map((history, i) => (
-                        <li key={i}>
-                            <img src={history} />
-                            <h1>{history.title}</h1>
-                        </li>
-                    ))
-                }
-            </ul>
+            <div id="this-weeks-study-history-scroll">
+                <ul>
+                    {
+                        history.history.map((history, i) => (
+                            <li key={i}>
+                                <img src={history} />
+                                <h1>{history.title}</h1>
+                            </li>
+                        ))
+                    }
+                </ul>
+            </div>
         </div>
     )
 }

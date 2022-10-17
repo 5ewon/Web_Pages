@@ -1,4 +1,5 @@
 import './ThisWeeksStudyOptions.scss';
+import addCircle from 'images/ThisWeeksStudy/add_circle.svg';
 
 function ThisWeeksStudyOptions() {
     return (
@@ -17,9 +18,9 @@ function ThisWeeksStudyOptions() {
                     랭킹
                 </label>
             </div>
-            <button>
+            <button id="upload-study">
                 공부법 올리기
-                <img src="" />
+                <img src={addCircle} alt="add" />
             </button>
         </div>
     )
