@@ -1,0 +1,14 @@
+#this-weeks-study {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    column-gap: 36px;
+    margin: 74px;
+
+    #this-weeks-study-contents {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        column-gap: 36px;
+    }
+}
