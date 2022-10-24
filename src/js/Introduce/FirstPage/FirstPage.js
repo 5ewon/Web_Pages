@@ -5,7 +5,7 @@ import './FirstPage.scss';
 import logo from 'images/logo.svg';
 import firstPageBG from 'images/cloud_computing.svg';
 
-function FirstPage({ isLogined }) {
+function FirstPage() {
     const scrollSign = useRef(null);
     const [scrollOpacity, setScrollOpacity] = useState(false);
 
@@ -24,20 +24,6 @@ function FirstPage({ isLogined }) {
         <div className="introduce-containers">
             <div id="introduce-login">
                 <img id="introduce-logo" src={logo} alt="logo" />
-                {isLogined ? null :
-                    <div id="introduce-login-signup">
-                        <Link to="/login" >
-                            <div>
-                                로그인
-                            </div>
-                        </Link>
-                        <Link to="/signup">
-                            <div>
-                                회원가입
-                            </div>
-                        </Link>
-                    </div>
-                }
             </div>
             <div id="introduce-scroll-icon" ref={scrollSign}>
                 스크롤하기
