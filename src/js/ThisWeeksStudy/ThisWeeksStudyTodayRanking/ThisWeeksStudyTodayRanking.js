@@ -1,9 +1,9 @@
-import ranking from './ThisWeeksStudyRanking.json';
-import './ThisWeeksStudyRanking.scss';
+import ranking from './ThisWeeksStudyTodayRanking.json';
+import './ThisWeeksStudyTodayRanking.scss';
 
-function ThisWeeksStudyRanking() {
+function ThisWeeksStudyTodayRanking() {
     return (
-        <div id="this-weeks-study-ranking">
+        <div id="this-weeks-study-today-ranking">
             <div id="ranking-header">
                 <h1 >순위</h1>
                 <h1 >제목</h1>
@@ -22,9 +22,9 @@ function ThisWeeksStudyRanking() {
                     ))
                 }
             </ul>
-            <div id="this-weeks-study-my-ranking"><span id="this-weeks-study-user-name">양유빈</span>님은 현재 345231217위입니다.</div>
+            <div id="this-weeks-study-today-my-ranking"><span id="this-weeks-study-today-user-name">양유빈</span>님은 현재 345231217위입니다.</div>
         </div>
     )
 }
 
-export default ThisWeeksStudyRanking;
+export default ThisWeeksStudyTodayRanking;
