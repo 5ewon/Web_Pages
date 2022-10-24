@@ -1,6 +1,13 @@
+import PlannerCalendar from './PlannerCalendar/PlannerCalendar';
+import PlannerTodoList from './PlannerTodoList/PlannerTodoList';
+import './Planner.scss';
+
 function Planner(){
     return(
-        <div>planner</div>
+        <div id="planner">
+            <PlannerCalendar />
+            <PlannerTodoList />
+        </div>
     );
 }
 
