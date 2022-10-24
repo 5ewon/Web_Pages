@@ -4,10 +4,10 @@ import Function from "js/Introduce/Function/Function";
 import Footer from "js/Introduce/Footer/Footer";
 import './WrapPage.scss';
 
-function WrapPage({isLogined}) {
+function WrapPage() {
     return(
         <div>
-            <FirstPage isLogined={isLogined} />
+            <FirstPage />
             <About />
             <Function />
             <Footer />

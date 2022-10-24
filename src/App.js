@@ -18,7 +18,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="introduce" element={<IntroduceWrapPage isLogined={isLogined} />} />
+        <Route path="introduce" element={<IntroduceWrapPage />} />
         {isLogined ? null :
           <>
             <Route path="login" element={<Login />} />
