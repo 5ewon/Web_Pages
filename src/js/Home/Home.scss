@@ -1,0 +1,73 @@
+@import '/src/Color/Color.scss';
+
+#home {
+    #banner {
+        height: 350px;
+        background-color: $main-gray;
+    }
+    #home-contents {
+        #home-todo-list {
+            #home-todo-list__header {
+                > div {
+                    > h1 {
+                        font-size: 30px;
+                        font-weight: bold;
+
+                        > span {
+                            color: $main-blue;
+                        }
+                    }
+                }
+                > h2 {
+                    font-size: 20px;
+                    font-weight: lighter;
+                }
+            }
+            #home-todo-list__contents {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                column-gap: 10px;
+                max-width: 1110px;
+
+                #home-todo-list__content {
+                    max-width: 550px;
+                    min-width: 250px;
+                    height: 170px;
+                    border-radius: 30px;
+                    border: 3px solid $main-gray;
+
+                    #home-todo-list__content__header {
+                        font-size: 20px;
+                        display: flex;
+                        justify-content: center;
+                        column-gap: 10px;
+
+                        #home-todo-d-day {
+                            max-width: 130px;
+                            height: 40px;
+                            background-color: $main-blue;
+                            border-radius: 5px;
+                            color: white;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-weight: bold;
+                            flex-grow: 1;
+                        }
+                        #home-todo-title {
+                            max-width: 300px;
+                            height: 40px;
+                            border: 2px solid $main-gray;
+                            border-radius: 5px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-weight: bold;
+                            flex-grow: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
