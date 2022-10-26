@@ -1,0 +1,23 @@
+@import '/src/Color/Color.scss';
+
+#PostList-wrap {
+    margin-top:20px;
+}
+.post {
+    text-align: left;
+    font-size:18px;
+    box-shadow:0px 1px 1px gray;
+    border-radius:10px;
+    margin-bottom:20px;
+    height:340px;
+    width:78vw;
+    margin:auto;
+    background-color: white;
+    cursor: pointer;
+}
+.background {
+    margin-top:20px;
+}
+.summary {
+    padding:20px 27px 17px 27px;
+}

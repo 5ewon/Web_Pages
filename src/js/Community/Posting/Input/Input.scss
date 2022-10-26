@@ -1,0 +1,31 @@
+@import '/src/Color/Color.scss';
+
+#input-title {
+    background-color: white;
+    border-radius:10px;
+    width:60vw;
+    height:7vh;
+    margin-bottom: 17px;
+    box-shadow:0px 2px 2px gray;
+    font-size:16px;
+    resize:none;
+    text-indent:1em;
+}
+
+#input-detail {
+    background-color: white;
+    border-radius:10px;
+    width:60vw;
+    height:50vh;
+    box-shadow:0px 2px 2px gray;
+    font-size:16px;
+    resize:none;
+    text-indent:1em;
+}
+
+textarea::placeholder {
+    font-weight:600;
+    padding-top:23px;
+    color:#9E9E9E;
+    font-size:18px;
+}

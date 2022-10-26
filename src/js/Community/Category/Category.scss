@@ -1,0 +1,30 @@
+@import '/src/Color/Color.scss';
+
+#category-wrap {
+    width:78vw;
+    margin:10px auto;
+}
+
+#category-options {
+    display: flex;
+    justify-content: space-between;
+
+    #category-options-radios {
+        display: flex;
+        > input {
+            display: none;
+
+            &:checked+label {
+                background-color: $main-blue;
+                color: white;
+            }
+        }
+        > label {
+            font-size: 24px;
+            border: none;
+            padding: 10px 42px;
+            border-radius: 100px;
+            background-color: $main-light-gray;
+        }
+    }
+}

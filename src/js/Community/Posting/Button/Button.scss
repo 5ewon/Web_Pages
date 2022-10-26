@@ -1,0 +1,26 @@
+@import '/src/Color/Color.scss';
+
+.buttons {
+    float:right;
+}
+
+#cancel {
+    border:none;
+    border-radius:10px;
+    color:white;
+    width:13vw;
+    height: 6vh;
+    background-color: #cccccc;
+    margin-right:5px;  
+    cursor: pointer;
+}
+
+#upload {
+    border:none;
+    border-radius:10px;
+    color:white;
+    width:13vw;
+    height: 6vh;
+    background-color: $main-blue;  
+    cursor: pointer;
+}
