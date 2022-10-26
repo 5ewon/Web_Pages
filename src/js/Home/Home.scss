@@ -1,0 +1,14 @@
+@import '/src/Color/Color.scss';
+
+#home {
+    margin-bottom: 200px;
+    #banner {
+        height: 350px;
+        background-color: $main-gray;
+    }
+    #home-contents {
+        display: flex;
+        flex-direction: column;
+        row-gap: 120px;
+    }
+}
