@@ -8,8 +8,13 @@
 #category-options {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
 
-    #category-options-radios {
+    .category-options-radios {
         display: flex;
         > input {
             display: none;
