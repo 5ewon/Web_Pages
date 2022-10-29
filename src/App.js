@@ -12,8 +12,8 @@ import SignUp from 'js/LoginSignUp/SignUp/SignUp';
 import Main from 'js/Main/Main';
 
 function App() {
-  // 여기서 로그인이 됐는지 state에 값을 저장
-  const [isLogined, setIsLogined] = useState(true);
+  // 로그인이 된 상태라면 true, 로그아웃 된 상태라면 false
+  const [isLogined, setIsLogined] = useState(false);
 
   return (
     <Router>

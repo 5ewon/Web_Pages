@@ -9,6 +9,8 @@ import { useState } from 'react';
 
 function Chatbot() {
     const [isClick, setIsClick] = useState(false);
+    const [MSG, setMSG] = useState('');
+
     return (
         <div id="chatbot">
             {isClick ?
@@ -23,7 +25,7 @@ function Chatbot() {
                     <div id="chatbot-section"></div>
                     <div id="chatbot-message">
                         <div>
-                            <input placeholder="글을 입력해주세요." />
+                            <input placeholder="글을 입력해주세요." value={MSG} onChange={e => setMSG(e.target.value)} />
                             <div id="buttons">
                                 <img src={emoticon} alt="emoticon" />
                                 <img src={file} alt="file" />
