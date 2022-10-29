@@ -1,10 +1,10 @@
 @import '/src/Color/Color.scss';
 
 #input-title {
+    padding-top:23px;
     background-color: white;
     border-radius:10px;
     width:60vw;
-    height:7vh;
     margin-bottom: 17px;
     box-shadow:0px 2px 2px gray;
     font-size:16px;
@@ -13,6 +13,7 @@
 }
 
 #input-detail {
+    padding-top:23px;
     background-color: white;
     border-radius:10px;
     width:60vw;
@@ -25,7 +26,6 @@
 
 textarea::placeholder {
     font-weight:600;
-    padding-top:23px;
     color:#9E9E9E;
     font-size:18px;
 }
