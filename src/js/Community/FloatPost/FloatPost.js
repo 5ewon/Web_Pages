@@ -27,7 +27,10 @@ const FloatPost = () => {
                         <div key={contents.id}>
                             <div className="list">
                                 <div className="detail">
-                                    <img src={profile} alt="" style={{ width: "45px" }} />
+                                    <div className="writer-info">
+                                        <img src={profile} alt="" style={{ width: "45px" }} />
+                                        <div className='writer'>{contents.writer}</div>
+                                    </div>
                                     <div className="inner">
                                         <div className="tag">#{contents.tag}</div><br />
                                         <div className="title">{contents.title}</div><br />
