@@ -4,7 +4,7 @@ import FloatPost from "js/Community/FloatPost/FloatPost";
 import Category from '../Category/Category';
 import PostingBtn from '../PostingBtn/PostingBtn';
 import { Route, Routes } from 'react-router-dom';
-import Posting from '../Posting/WrapPosting/WrapPosting';
+import Posting from '../Posting/Posting/Posting';
 import ContentDetail from '../ContentDetail/ContentDetail';
 
 const Community = () => {

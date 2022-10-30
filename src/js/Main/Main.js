@@ -6,7 +6,6 @@ import Home from 'js/Home/Home';
 import Profile from 'js/Profile/Profile';
 import Planner from 'js/Planner/Planner';
 import Community from 'js/Community/Community/Community';
-import Posting from 'js/Community/Posting/WrapPosting/WrapPosting';
 import NotFound from 'js/NotFound/NotFound';
 import ThisWeeksStudy from 'js/ThisWeeksStudy/ThisWeeksStudy';
 
