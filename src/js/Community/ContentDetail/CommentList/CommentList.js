@@ -1,3 +1,5 @@
+import './CommentList.scss';
+
 function CommentList({ comments }) {
     return (
         <ul id="comment-list">
@@ -5,7 +7,7 @@ function CommentList({ comments }) {
                 <li key={cmt.id}>
                     <div className="commenter-info">
                         <span className="commenter">{cmt.commenter}</span>
-                        <span>
+                        <span className='date'>
                             {cmt.year}년
                             {cmt.month}월
                             {cmt.day}일

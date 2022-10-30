@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-import './Comment.scss';
+import './ContentDetail.scss';
 import dummy from "js/Community/Dummy/Dummy"
 import profile from 'images/profile.svg';
 import CommentList from './CommentList/CommentList';
+import AddComment from './AddComment/AddComment';
 
-function Comment() {
+function ContentDetail() {
     const [loading, setLoading] = useState(true);
     const [content, setContent] = useState({});
     const { id } = useParams();
@@ -54,8 +55,9 @@ function Comment() {
                     </div>
                 </div>
                 <CommentList comments={content.comment} />
+                <AddComment />
             </div>
     )
 }
 
-export default Comment;
+export default ContentDetail;

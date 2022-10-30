@@ -4,8 +4,8 @@ import FloatPost from "js/Community/FloatPost/FloatPost";
 import Category from '../Category/Category';
 import PostingBtn from '../PostingBtn/PostingBtn';
 import { Route, Routes } from 'react-router-dom';
-import Comment from '../Comment/Comment';
 import Posting from '../Posting/WrapPosting/WrapPosting';
+import ContentDetail from '../ContentDetail/ContentDetail';
 
 const Community = () => {
     return (
@@ -22,7 +22,7 @@ const Community = () => {
                         <PostingBtn />
                     </>
                 } />
-                <Route path='/:id' element={<Comment />} />
+                <Route path='/:id' element={<ContentDetail />} />
                 <Route path="posting" element={<Posting />} />
             </Routes>
         </div>
