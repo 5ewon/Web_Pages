@@ -1,6 +1,7 @@
 import './Home.scss';
 import HomeTodoList from './HomeTodoList/HomeTodoList';
 import HomeRanking from './HomeRanking/HomeRanking';
+import HomePopularCommunity from './HomePopularCommunity/HomePopularCommunity';
 
 function Home(){
     return(
@@ -9,6 +10,7 @@ function Home(){
             <div id="home-contents">
                 <HomeTodoList />
                 <HomeRanking />
+                <HomePopularCommunity />
             </div>
         </div>
     );
