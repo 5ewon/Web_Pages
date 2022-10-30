@@ -1,11 +1,8 @@
 @import '/src/Color/Color.scss';
 
-#post-list {
-    margin-top: 20px;
-
-    .post {
+#content-detail-page {
+    .content-detail {
         text-align: left;
-        // font-size:18px;
         box-shadow: 0px 1px 1px gray;
         border-radius: 10px;
         margin-bottom: 20px;
@@ -15,7 +12,7 @@
         background-color: white;
         cursor: pointer;
 
-        .background {
+        .content-detail-wrap {
             margin-top: 20px;
 
             .detail {

@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 const PostList = ({ lang }) => {
 
     return (
-        <div id="PostList-wrap">
-            {dummy.contents.map((contents, i) => (
+        <div id="post-list">
+            {dummy.contents.map(contents => (
                 contents.tag === lang ?
                     <Link to={`${contents.id}`} key={contents.id}>
                         <div className="post">
