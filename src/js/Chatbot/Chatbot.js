@@ -66,7 +66,7 @@ function Chatbot() {
                                 <img id="chatbot-settings" src={three_dots} alt="settings" onClick={() => setIsSetting(true)}/>
                                 <img id="chatbot-close" src={close} alt="close" onClick={() => setIsClick(false)} />
                             </div>
-                        </div>
+                        </div> 
                         <div id="chatbot-section-wrap">
                             <div id="chatbot-section-content">
                                 <div id="chatbot-date">{todayTime().slice(0, 20)}</div>
