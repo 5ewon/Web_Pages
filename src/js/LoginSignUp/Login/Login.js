@@ -6,12 +6,14 @@ function Login() {
     const [ID, setID] = useState('');
     const [PW, setPW] = useState('');
     console.log(ID, PW);
+    const handleSubmit = event => {
+    }
 
     return (
         <LoginSignUp>
             <div id="login-section">
                 <div id="login-inputs">
-                    <form>
+                    <form onSubmit={handleSubmit}>
                         <div>
                             <div>아이디</div>
                             <input
