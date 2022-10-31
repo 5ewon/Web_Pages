@@ -3,8 +3,11 @@ import './AddComment.scss';
 
 function AddComment() {
     const [comment, setComment] = useState('');
+    const handleSubmit = event => {
+        event.preventDefault();
+    }
     return (
-        <div id="add-comment">
+        <form id="add-comment" onSubmit={handleSubmit}>
             <input
                 id="comment-input"
                 value={comment}
@@ -12,7 +15,7 @@ function AddComment() {
                 placeholder='댓글을 입력하세요' 
             />
             <input id="add-button" type="submit" value="댓글 달기" />
-        </div>
+        </form>
     );
 }
 
