@@ -58,7 +58,7 @@ function Dots() {
   })
   return (
     <instancedMesh ref={ref} args={[null, null, 10000]}>
-      <circleBufferGeometry args={[0.15]} />
+      <circleGeometry args={[0.15]} />
       <meshBasicMaterial />
     </instancedMesh>
   )
@@ -66,7 +66,7 @@ function Dots() {
 
 export default function StructureGroup() {
   return (
-    <Canvas orthographic camera={{ zoom: 20 }} colorManagement={false}>
+    <Canvas orthographic camera={{ zoom: 20 }}>
       <color attach="background" args={['black']} />
       <Dots />
     </Canvas>
