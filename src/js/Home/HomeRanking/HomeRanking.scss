@@ -1,6 +1,6 @@
 @import '/src/Color/Color.scss';
 
-#home-ranking{
+#home-ranking {
     width: 1110px;
     margin: 0 auto;
 
@@ -10,22 +10,30 @@
         height: 30px;
         margin-bottom: 12px;
 
-        > span {
+        >span {
             font-size: 30px;
             font-weight: bold;
         }
-        > img {
+
+        >img {
             height: 100%;
         }
     }
+
     #home-ranking-explain {
         font-weight: light;
         font-size: 20px;
         margin-bottom: 20px;
     }
+
     #home-ranking-contents {
         height: 80px;
         border-radius: 20px;
         border: 3px solid $main-gray;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 24px;
+        font-weight: 600;
     }
 }
