@@ -13,11 +13,14 @@ function SignUp() {
         marketing: false
     })
 
+    const handleSubmit = event => {
+    }
+
     return (
         <LoginSignUp>
             <div id="signup-section">
                 <div id="signup-inputs">
-                    <form>
+                    <form onSubmit={handleSubmit}>
                         <div>
                             <div>이메일</div>
                             <input
