@@ -23,7 +23,7 @@ function FirstPage() {
     return (
         <div className="introduce-containers">
             <div id="introduce-login">
-                <img id="introduce-logo" src={logo} alt="logo" />
+                <Link to="../main/home"><img id="introduce-logo" src={logo} alt="logo" /></Link>
             </div>
             <div id="introduce-scroll-icon" ref={scrollSign}>
                 스크롤하기
