@@ -1,7 +1,8 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 
 import Header from 'js/Header/Header';
-import Chatbot from 'js/Chatbot/Chatbot';
+import Chatbot from 'js/Chatbot/Chatbot/Chatbot';
+// import Chatbot from 'js/Chatbot/ChatbotKit/ChatbotKit';
 import Home from 'js/Home/Home';
 import Profile from 'js/Profile/Profile';
 import Planner from 'js/Planner/Planner';

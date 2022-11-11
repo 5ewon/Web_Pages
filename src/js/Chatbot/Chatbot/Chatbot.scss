@@ -95,6 +95,10 @@ $padding: 8;
                         border: 1px solid #ccc;
                         border-radius: 20px;
                         background-color: white;
+
+                        > div {
+                            margin-top:4px;
+                        }
                     }
                 }
             } 
@@ -155,14 +159,24 @@ $padding: 8;
                     display:flex;
                     vertical-align: top;
 
+                    #chatbot-box-wrap {
+                        margin-top:10px;
+                        
+                        #proteen-text {
+                            color:#A6A7A7;
+                            margin:5px auto;
+                        }
+                    }
+
                     img{
                         width:30px;
+                        margin-bottom:110px;
                     }
                 }
                 
                 #chatbot-box-bot{
                     width:190px;
-                    margin-top:20px;
+                    // margin-top:20px;
                     padding:20px;
                     background-color: #F4F3F3;
                     border-radius:0px 25px 25px 25px;
@@ -183,6 +197,7 @@ $padding: 8;
                 }
     
                 #chatbot-date{
+                    color:#A6A7A7;
                     font-size:13px;
                     margin-top:20px;
                     text-align: center;
